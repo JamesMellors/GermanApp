@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GermanApp.Views.GroupedTranslations">
+	<ContentPage.Content>
+        <Grid>
+            <Button Grid.Row="0" Grid.Column="0" Text="Verb" Clicked="VerbLoad"/>
+            <Button Grid.Row="0" Grid.Column="1" Text="Number" Clicked="NumberLoad"/>
+            <Button Grid.Row="1" Grid.Column="0" Text="Nouns" Clicked="NounsLoad"/>
+            <Button Grid.Row="1" Grid.Column="1" Text="Help" Clicked="HelpLoad"/>
+            <Button Grid.Row="2" Grid.Column="0" Text="Colour" Clicked="ColourLoad"/>
+            <Button Grid.Row="2" Grid.Column="1" Text="Calendar" Clicked="CalendarLoad"/>
+            <Button Grid.Row="3" Grid.Column="0" Text="Conversation" Clicked="ConversationLoad"/>
+            <Button Grid.Row="3" Grid.Column="1" Text="Directions" Clicked="DirectionsLoad"/>
+        </Grid>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    Padding="0, 20, 0, 0"
+    xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GermanApp.StackPage">
+    <StackLayout Orientation="Vertical" Spacing="4" VerticalOptions="Center" HorizontalOptions="Center">
+       <Button Text="Libary" Clicked="Handle_Clicked"></Button>       
+        <Button Text="Begin Learning" ></Button> 
+        <Button Text="Category" Clicked="GoToGrid"></Button> 
+        <Button Text="ABC..." Clicked="AbcPage"></Button> 
+        <Button></Button> 
+    </StackLayout>
+
+</ContentPage>

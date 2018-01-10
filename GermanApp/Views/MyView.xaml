@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GermanApp.Views.MyView">
+	<ContentView.Content>
+        <StackLayout>
+      <ListView x:Name="TranslationList">
+      <ListView.ItemTemplate>
+      <DataTemplate>
+      <TextCell Text="{Binding english}"/>
+      </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+	</ContentView.Content>
+</ContentView>
