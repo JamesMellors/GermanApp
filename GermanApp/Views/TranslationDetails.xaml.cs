@@ -24,11 +24,15 @@ namespace GermanApp.Views
     
         void Handle_Clicked(object sender, System.EventArgs e)
         {
+
+            if( Trans.english != null){
+            
             var File = Trans.english + ".mp3";
 
             File = File.Replace(" ", "");
 
             DependencyService.Get<IAudio>().PlayAudioFile(File);
+            }
         }
     }
 }
