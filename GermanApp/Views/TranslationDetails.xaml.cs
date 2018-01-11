@@ -27,8 +27,8 @@ namespace GermanApp.Views
 
             if( Trans.english != null){
             
-            var File = Trans.english + ".mp3";
-
+                var File = Trans.english + ".mp3";
+              
             File = File.Replace(" ", "");
 
             DependencyService.Get<IAudio>().PlayAudioFile(File);
